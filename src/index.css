@@ -10,16 +10,28 @@ h1,
 h2,
 h3,
 input,
-button {
+button{
   font-family: 'Mulish';
 }
+
+.actionsContainer button{
+  border:'none';
+  border-radius:25px;
+  color: hsl(0, 84%, 75%);
+  background-color:rgb(17, 15, 15);
+  padding:5px;
+  margin:10px;
+  font-size:1.1em;
+
+}
+
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #f1b6b6;
   gap: 14px;
 }
 
@@ -91,12 +103,7 @@ p {
   gap: 14px;
 }
 
-.actionsContainer button {
-  transition-duration: 200ms;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
+
 
 .actionsContainer button:hover {
   opacity: 0.7;
